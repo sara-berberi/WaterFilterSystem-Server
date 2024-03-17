@@ -64,6 +64,10 @@ module.exports = function(sequelize, DataTypes) {
         User.hasMany(models.Commission, {
             foreignKey: "userPaidTo"
         });
+
+        User.hasOne(models.Inventory, {
+            foreignKey: "manager"
+        })
     }
 
     return User;
