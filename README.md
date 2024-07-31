@@ -1,6 +1,9 @@
 # Water Filter System Server README
 The Water Filter System Server is the backend component of our comprehensive water filter management system. It handles data processing, storage, and provides API endpoints for the client-side application.
 
+##Technologies
+- POSTMAN, React, Javascript, MySql, ExpressJs, NodeJs
+
 ## Features
 - **User Authentication**: Secure login and registration for different user roles. 🔒
 - **Schedule Management**: Manage and retrieve schedules for sales and phone agents. 📅
